@@ -6,7 +6,10 @@ dependencies = [
     "ir-measures~=0.3.3",
     "jupyter~=1.0",
     "python-terrier~=0.10.0",
-    "tira==0.0.77",
+    "tira~=0.0.78",
     "tqdm~=4.66",
 ]
 version = "0.1.0"
+
+[tool.setuptools.packages.find]
+include = ["ir_lab"]
