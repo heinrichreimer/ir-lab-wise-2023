@@ -3,3 +3,4 @@
 /index
 /.idea
 .ipynb_checkpoints
+*.egg-info
